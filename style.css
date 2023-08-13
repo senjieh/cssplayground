@@ -1,0 +1,19 @@
+body {
+  background-color: black;
+  font-family: 'REM', sans-serif;
+  color: white;
+  margin: 0px;
+}
+
+.font-weight-hover-transition {
+  font-variation-settings: "wght" 900, "wdth" 100;
+  transition:
+      font-variation-settings 0.3s ease,
+      color 0.3s ease,
+      font-size 0.6s ease-in-out;
+}
+
+.font-weight-hover-transition:hover {
+  font-variation-settings: "wght" 300, "wdth" 100;
+  color: white;
+}
